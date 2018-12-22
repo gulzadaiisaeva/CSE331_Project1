@@ -6,9 +6,10 @@ The circuit will output a two bit signal called Out such that:
 
 Situation Out =
 
-InA = InB     => 00 
-InA > InB     => 01 
+InA = InB     => 00
+InA > InB     => 01
 InA &lt; InB  => 10 
-InA = InB ≠ 0 => 11 
+InA = InB ≠ 0 => 11
+
 
 Use structural Verilog and Quartus.
